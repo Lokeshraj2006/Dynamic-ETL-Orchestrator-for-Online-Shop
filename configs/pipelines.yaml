@@ -1,0 +1,10 @@
+pipelines:
+  - name: daily_sales
+    description: "Daily sales orders from online shop"
+    source_glob: "/opt/airflow/data/landing/sales_*.csv"
+    target_table: sales
+    enabled: true
+    validation:
+      required_columns: ["order_id", "order_date", "product", "quantity", "price"]
+      max_null_fraction: 0.15
+    error_folder: "/opt/airflow/data/bad/"
