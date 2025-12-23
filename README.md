@@ -1,4 +1,4 @@
-# Dynamic Sales ETL Orchestrator 🚀
+# Dynamic Sales ETL Orchestrator 
 
 > **A config‑driven, production‑ready ETL pipeline** that automates sales data processing using **Apache Airflow, PostgreSQL, and Docker**. Built to turn raw CSV sales reports into clean, query‑ready analytics data with intelligent validation, error handling, and business‑friendly feedback.
 
