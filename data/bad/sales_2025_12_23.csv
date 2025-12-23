@@ -1,0 +1,6 @@
+order_id,amount,order_date,product
+1,100,01-01-2025,Shirt
+2,250,01-01-2025,Shoes
+3,90,01-01-2025,Hat
+4,400,01-01-2025,Jacket
+5,150,01-01-2025,Socks
