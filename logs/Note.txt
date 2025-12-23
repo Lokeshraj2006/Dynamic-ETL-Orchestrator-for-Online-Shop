@@ -1,0 +1,1 @@
+The log file stores a timestamped trace of each run showing every ETL step (extract, validate, transform, load), row counts, and any validation or load errors for debugging and audit.
